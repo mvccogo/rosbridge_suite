@@ -11,7 +11,6 @@ ament_python_install_package(
 ament_package()
 
 install(PROGRAMS
-  scripts/rosbridge_websocket.py
   scripts/rosbridge_websocket
   scripts/rosbridge_tcp
   DESTINATION lib/${PROJECT_NAME}
